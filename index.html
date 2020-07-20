@@ -8,8 +8,10 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
         <link rel="stylesheet" href="style.css">
+        
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script> 
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container">
@@ -60,11 +62,12 @@
                             <div class="about">
                                 <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">J'ai éffectué ma formation de développeur web et web mobile au sein de l'école O'Clock.
                                 J'ai appris durant cette formation de 5 mois les langages HTML5, CSS3, PHP, Javascript es6, MySQL... Puis j'ai éffectué une professionnalisation sur la bibliothèque React.
+
                                 </p>
-                                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Je prépare actuellement le Titre développeur web et web mobile (DWWM ). De niveau Bac+2, ce diplôme est reconnu par le ministère du travail.
+                                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">J'ai depuis passé le Titre Pro Développeur Web et Web Mobile et effectué 2 missions en Freelance en tant que développeur React sur la plateforme Malt.
                                 </p>
                                 <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                                    Je suis actuellement disponible pour un poste dans la région de montpellier (ou en télétravail si la distance est trop élevée). J'ai une grande préférence pour la partie Front-end mais je peux aussi m'amuser en faisant du Back-end avec en node.js 
+                                    Je suis actuellement disponible pour un poste en alternance dans la région de bordeaux (ou en télétravail si la distance est trop élevée).
                                 </p>
                             </div>
                             
@@ -72,6 +75,16 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section>
+            <div class="contributions">
+                Mes contributions GitHub en temps réel
+            </div>
+            <div class="calendar">
+                <!-- Loading stuff -->
+                Loading the data just for you.
+              </div>
+
         </section>
         <section class="sec1" id="services">
             <div class="container">
@@ -168,7 +181,7 @@
                                 <img src="img/ozone.png" class="img-fluid">
                             </div>
                             <div class="content">
-                                <h1>oZone: Projet React</h1>
+                                <h1>oZone: Projet React:</h1>
                                 <p>Site web conçu en équipe de 4 développeurs pendant le projet de fin de formation (4 sprint)</p>
                                 <a href="https://ozone.best" target="_blank" class="btn btnD2">Consulter le site Web</a>
                                 <div class="clearfix"></div>
@@ -184,11 +197,45 @@
                                 <img src="img/api.png" class="img-fluid">
                             </div>
                             <div class="content">
-                                <h1>API REST node.js</h1>
+                                <h1>API REST node.js:</h1>
                                 <p>Création d'une API rest node.js avec le framework express.</p>
                                 <a href="https://github.com/Baptiste-Caral/ApiRest" target="_blank" class="btn btnD2">Consulter le site Web</a>
                                 <div class="clearfix"></div>
                                 <a href="https://github.com/Baptiste-Caral/ApiRest" target="_blank" class="btn btnD2">Voir le projet sur Github</a>
+                                <div class="clearfix"></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="blogpost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                            <div class="imgBx">
+                                <img src="img/timer.png" class="img-fluid">
+                            </div>
+                            <div class="content">
+                                <h1>Timer Néomorphism:</h1>
+                                <p>Création d'un Timer en vanilla.js et avec le style néomophism, projet respectant les tendances de couleurs pantone 2020.</p>
+                                <a href="https://jhonnytimer.web.app/" target="_blank" class="btn btnD2">Consulter le site Web</a>
+                                <div class="clearfix"></div>
+                                <a href="https://github.com/Baptiste-Caral/timer" target="_blank" class="btn btnD2">Voir le projet sur Github</a>
+                                <div class="clearfix"></div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="blogpost" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                            <div class="imgBx">
+                                <img src="img/pdf2.png" class="img-fluid">
+                            </div>
+                            <div class="content">
+                                <h1>Générateur de PDF:</h1>
+                                <p>Création d'un générateur de PDF dans le cadre d'une mission freelance React.js
+                                <br>Société Elizay
+                                </p>
+                                <a href="https://app.elizay.com/contrats/index.html" target="_blank" class="btn btnD2">Consulter le site Web</a>
+                                <div class="clearfix"></div>
+                                <a href="https://github.com/timounet/pdf-form-filler" target="_blank" class="btn btnD2">Voir le projet sur Github</a>
                                 <div class="clearfix"></div>
                                 
                             </div>
@@ -238,10 +285,12 @@
                 </div>
             </div>
         </footer>
+        <script src="./app.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       
         <script>
                 AOS.init();
         </script>
